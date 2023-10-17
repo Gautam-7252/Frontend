@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+    color: white;
+    display:grid;
+    padding:5px;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: "nav section"
+    "aside section"
+    "footer footer";
+}
+
+/* Navbar */
+
+nav{
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    width: 400px;
+    border-radius: 10px;
+    height:100px;
+    grid-area: nav;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#home{
+    font-weight: bold;
+}
+svg{
+    margin-right: 25px;
+}
+
+/* SECTION */
+
+section{
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    grid-area: section;
+    padding: 0px;
+    height: 800px;
+}
+#top_btn{
+    list-style: none; 
+    margin-top: 10px;
+    margin-left:auto;
+    width:300px;
+}
+#top_btn1{
+    background-color: white;
+    color:black;
+}
+#top_btn2{
+    background-color: black;
+    color: white;
+}
+#top_btn a{
+    height: 30px;
+    border-radius: 25px;
+    margin: 10px;
+    padding:5px 15px;
+}
+.greet{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.sec_container1{
+    padding:20px;
+    /* border: 1px dotted white; */
+    /* height: 1000px; */
+}
+.sec_img{
+    height:75px;
+    width:75px;
+    border-radius: 2px;
+}
+.col{
+    margin: 10px;
+    background-color: rgb(65, 64, 64);
+    height: 75px;
+    width: 300px;
+   
+}
+.col:hover{
+    background-color: rgb(27, 184, 27);
+    border-radius: 10px;
+}
+.artist_name{
+    margin-left: 20px;
+}
+
+/* ASIDE */
+
+aside{
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    grid-area: aside;
+    width: 400px;
+    height: 690px;
+    padding: 20px;
+    color:white;
+}
+aside a{
+    color: rgb(153, 152, 152);
+}
+.lib_list>div{
+    margin-top:25px;
+    margin-left:0px;
+    
+}
+.songname:hover{
+   
+    text-decoration: underline;
+    
+}
+.song:hover{
+     background-color: rgb(27, 184, 27);
+    border-radius: 10px;
+}
+.songname{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.aside_img{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+    grid-area: footer;
+    height: 100px;
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    /* align-items: center;  */
+    /* justify-content: center; */
+}
+.progress{
+    height: 10px;
+    width: 100%;
+    cursor: pointer;
+    
+}
+.current_song{
+    left:50px;
+    float: left;
+}
+.play_btn{
+    display: flex;
+    justify-content: center;
+    /* width:15%; */
+    /* margin: auto; */
+    cursor: pointer;
+}
+.bi{
+    font-size: 40px;
+}
+.footer_img{
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+}
+

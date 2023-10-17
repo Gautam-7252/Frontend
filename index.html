@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify.in</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="index.css" rel="stylesheet" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- home and search -->
+    <nav>
+      <div class="nav">
+        <ul><li><a href="#" id="home">
+         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-door-fill" >
+<path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"></path>
+</svg> HOME
+        </a></div>
+      <li><a id="Search" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" >
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+      </svg>Search</a></div></ul></div>
+    </nav>
+    <section>
+      <div id="top_btn"><a id="top_btn1" href=""> Explore premium</a><a id="top_btn2" href="">Install App</a></div>
+      <div class="greet">
+      Good evening</div>
+      <div class="sec_container1">
+        <div class="row no-gutters">
+          <div class="col"> 
+              <img class="sec_img" src=".\image\Capture001.png" alt="Error"> <span class="artist_name">Artist 1</span>  
+          </div>
+          <div class="col">
+            <img class="sec_img" src=".\image\Capture001.png" alt="Error"> <span class="artist_name">Artist 2</span>
+          </div>
+          <div class="col">
+            <img class="sec_img" src=".\image\Capture001.png" alt="Error"> <span class="artist_name">Artist 3</span>
+          </div>
+        </div>
+       
+        <div class="row">
+          <div class="col">
+            <img class="sec_img" src=".\image\Capture001.png" alt="Error"> <span class="artist_name">Artist 4</span>
+          </div>
+          <div class="col">
+            <img class="sec_img" src=".\image\Capture001.png" alt="Error"> <span class="artist_name">Artist 5</span>
+          </div>
+          <div class="col">
+            <img class="sec_img" src=".\image\Capture001.png" alt="Error"> <span class="artist_name">Artist 6</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <aside>
+      <div class="Lib_head">
+        <a href="" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list"  >
+          <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+          <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+          <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+          <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+        </svg><span> Your Songs</span> </a>
+        <div class="btn">
+          <a href="" id="btn_add">+</a>
+        </div>
+          <a href="" id="btn_arrow" class="lib_btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+          </svg></a>
+        </div>
+        
+      <div class="list">
+        <ul class="lib_list">
+          <div class="song"><img class="aside_img" src=".\image\Capture001.png" alt="Error"><span class="songname" id="1">song name</span></div>
+          <div class="song"><img class="aside_img" src=".\image\Capture001.png" alt="Error"><span class="songname" id="2">song name</span></div>
+          <div class="song"><img class="aside_img" src=".\image\Capture001.png" alt="Error"><span class="songname" id="3">Thunder-Imagine Dragon</span></div>
+          <div class="song"><img class="aside_img" src=".\image\Capture001.png" alt="Error"><span class="songname" id="4">Keep it MELLO-Marshmello</span></div>
+          <div class="song"><img class="aside_img" src=".\image\Capture001.png" alt="Error"><span class="songname" id="5">Alone-Alan Walker</span></div>
+          <div class="song"><img class="aside_img" src=".\image\Capture001.png" alt="Error"><span class="songname" id="6">Faded-Alan Walker</span></div>
+          <div class="song"><img class="aside_img" src=".\image\Capture001.png" alt="Error"><span class="songname" id="7">On my way-Alan Walker</span></div>
+          <div class="song"><img class="aside_img" src=".\image\Capture001.png" alt="Error"><span class="songname" id="8">Alarm-Marshmello</span></div>
+        </ul>
+      </div>
+    </aside>
+    <footer>
+      <span class="current-song">
+        <div class="progress">
+          <input class="progress" id="progressbar" type="range" value="0" min="0" max="100">
+          <!-- <div class="progress-bar bg-success" id="progressbar" role="progressbar" style="width: 10%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div> -->
+        </div>
+        <img class="footer_img" src=".\image\Capture001.png" alt="Error">
+      <span id="showduration">--</span>
+      <span id="c_songname"> Alone</span>
+      
+      
+    </span>
+      <span class="play_btn">
+      <i class="bi bi-skip-start-fill" id="previous" title="previous"></i>
+      <i class="bi bi-play-circle-fill" id="masterplay" title="play/pause"></i>
+      <i class="bi bi-skip-end-fill" id="next" title="next"></i></span>
+     
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
